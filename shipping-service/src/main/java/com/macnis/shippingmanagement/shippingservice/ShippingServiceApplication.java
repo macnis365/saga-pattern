@@ -1,13 +1,13 @@
-package com.macnis.eventsourcingexample;
+package com.macnis.shippingmanagement.shippingservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EventSourcingExampleApplication {
+public class ShippingServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EventSourcingExampleApplication.class, args);
+		SpringApplication.run(ShippingServiceApplication.class, args);
 	}
 
 }

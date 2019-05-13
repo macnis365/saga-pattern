@@ -15,6 +15,7 @@ import java.util.UUID;
 
 @Saga
 public class OrderManagementSaga {
+
     @Inject
     private transient CommandGateway commandGateway;
 

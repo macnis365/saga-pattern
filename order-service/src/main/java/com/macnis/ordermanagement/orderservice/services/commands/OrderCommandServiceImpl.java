@@ -4,10 +4,12 @@ import com.macnis.ecommerce.commands.CreateOrderCommand;
 import com.macnis.ordermanagement.orderservice.aggregates.OrderStatus;
 import com.macnis.ordermanagement.orderservice.dto.commands.OrderCreateDTO;
 import org.axonframework.commandhandling.gateway.CommandGateway;
+import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 
+@Service
 public class OrderCommandServiceImpl implements OrderCommandService {
     private final CommandGateway commandGateway;
 
