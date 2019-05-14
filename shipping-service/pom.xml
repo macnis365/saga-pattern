@@ -8,7 +8,7 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.macnis.shippingmanagement</groupId>
+	<groupId>com.macnis.ordermanagement</groupId>
 	<artifactId>shipping-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>shipping module for ecommerce application</name>
